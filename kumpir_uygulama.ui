@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kumpir Programı</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>35</y>
+     <width>671</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Kumpir Tipi Seçiniz :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="cmb_kumpir_tipi">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Sade Kumpir : Tereyağı + Kaşar : 12TL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Çift Kaşarlı Kumpir : 17TL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Karışık Kumpir : 15TL</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Kumpir Malzemesi 1 Seçiniz :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="cmb_Malzeme1">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Siyah Zeytin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Yeşil Zeytin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mısır</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bezelye</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Turşu</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rus Salatası</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ketçap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mayonez</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Kumpir Malzemesi 2 Seçiniz :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="cmb_Malzeme2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Siyah Zeytin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Yeşil Zeytin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mısır</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mantar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bezelye</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Turşu</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rus Salatası</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ketçap</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mayonez</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Çikolata Seçiniz :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QComboBox" name="cmb_Cikolata">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Beyaz Çikolata</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sütlü Çikolata</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Franbuazlı Çikolata</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Süsleme Seçiniz :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QComboBox" name="cmb_Susleme">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Hindistan Cevizi</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Damla Çikolata</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Muz </string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Çilek</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="2">
+     <widget class="QLineEdit" name="edt_sonuc">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" colspan="2">
+     <widget class="QPushButton" name="Btn_Hesapla">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Hesapla</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
